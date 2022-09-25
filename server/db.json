@@ -1,0 +1,68 @@
+{
+    "students":[
+        {
+            "id": 1,
+            "name": "Rafael",
+            "age": 19,
+            "address": "Mi casa"
+        },
+        {
+            "id": 2,
+            "name": "Carlos",
+            "age": 20,
+            "address": "Mi casa 2"
+        },
+        {
+            "id": 3,
+            "name": "Ana",
+            "age": 21,
+            "address": "Mi casa 3"
+        },
+        {
+            "id": 4,
+            "name": "Paula",
+            "age": 22,
+            "address": "Mi casa 4"
+        }
+    ],
+    "skills":[
+        {
+            "id":1,
+            "name": "Game Developer"
+        },
+        {
+            "id":2,
+            "name": "Backend Developer"
+        },
+        {
+            "id":3,
+            "name": "Frontend Developer"
+        },
+        {
+            "id":4,
+            "name": "Mobile Developer"
+        }
+    ],
+    "competences":[
+        {
+            "id":1,
+            "studentId":1,
+            "skillId":1
+        },
+        {
+            "id":2,
+            "studentId":2,
+            "skillId":2
+        },
+        {
+            "id":3,
+            "studentId":3,
+            "skillId":3
+        },
+        {
+            "id":4,
+            "studentId":4,
+            "skillId":4
+        }
+    ]
+}
