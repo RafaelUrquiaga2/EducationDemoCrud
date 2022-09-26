@@ -7,6 +7,7 @@ import { AboutComponent } from './public/about/about.component';
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'about', component: AboutComponent},
+  //¿Que es pathMatch: 'full'?
   {path: '', redirectTo: 'home', pathMatch: 'full'},
   {path: 'students', component: StudentsComponent}
 ];
